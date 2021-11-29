@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    margin: 0; 
+    min-height: 100vh;
+}
+
+.header, .footer {
+    display: flex;
+    flex-direction: column; 
+    padding: 0 130px;
+    background-color: rgb(39, 76, 101);
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding: 30px;
+}
+
+.hlogo {
+    text-align: start;
+    font-size: 24px;
+    font-weight: bolder;
+    color: darkred;
+    padding-top: 13px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+    font-size: 18px;
+}
+
+.botttom-header {
+    display: flex;
+    margin-bottom: 60px;
+    background-color: rgb(39, 76, 101);
+    padding: 30px;
+}
+
+.content {
+    flex: 1;
+}
+
+.signup-1 {
+    color: snow;
+    background-color: rgb(12, 37, 177);
+    border: 8px snow;
+    border-radius: 8px;
+}
+ 
+.image {
+    display: flex;
+    flex: 1;
+    padding: 30px 60px;
+    margin: 10px 600px;
+    background-color: rgb(68, 77, 77);
+    text-align: center;
+    color: darkred;
+    position: absolute;
+    top: 150px;
+
+}
+h1 {
+    font-weight: bolder;
+    color: darkred;
+    margin: 0;
+    /* border: 2px solid purple; */
+}
+
+button {
+    padding: 10px 32px;
+    border-radius: 8px;
+    background-color: rgb(12, 37, 177);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    /* border: 2px solid orangered; */
+}
+
+h2 {
+    margin: 0%;
+    position: relative;
+    bottom: -30px;
+}
+
+#block-1 {
+    /* border: 3px solid gold; */
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 30px 100px;
+}
+
+.one {
+    padding: 50px;
+    border: 2px solid rgb(12, 37, 177);
+}
+
+#block-2 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -100px;
+    /* padding: 60px; */
+    margin: 10px 80px;
+    /* border: 2px solid gold; */
+}
+
+.text {
+    padding: 20px;
+}
+
+.testimonial {
+    background-color: rgb(68, 77, 77);
+    padding: 60px;
+    text-align: center;
+}
+
+.author {
+    /* border: 2px solid gold; */
+    position: relative;
+    right: -360px;
+}
+
+.calla {
+    background-color: rgb(12, 37, 177);
+    color: snow;
+    margin: 50px 70px;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
